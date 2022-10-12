@@ -3,10 +3,11 @@
 <html lang="pt">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <title>Portefolio - Valdo Morais Flor - Inicio</title>
     <!-- google font -->
     <link href="//fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -16,57 +17,7 @@
 
 <body>
     <!-- header -->
-    <header id="site-header" class="fixed-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="/">
-                    <i class="fas fa-bold"></i>.
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobre">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="servicos">Servicos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto">Contacto</a>
-                        </li>
-                    </ul>
-                    <form action="#search" method="GET" class="d-flex search-header">
-                        <input class="form-control" type="search" placeholder="Digite as palavras..." aria-label="Search"
-                            required>
-                        <button class="btn btn-style" type="submit">Pesquisar</button>
-                    </form>
-                </div>
-                <!-- toggle switch for light and dark theme -->
-                <div class="cont-ser-position">
-                    <nav class="navigation">
-                        <div class="theme-switch-wrapper">
-                            <label class="theme-switch" for="checkbox">
-                                <input type="checkbox" id="checkbox">
-                                <div class="mode-container">
-                                    <i class="gg-sun"></i>
-                                    <i class="gg-moon"></i>
-                                </div>
-                            </label>
-                        </div>
-                    </nav>
-                </div>
-                <!-- //toggle switch for light and dark theme -->
-            </nav>
-        </div>
-    </header>
+        @include('section.header')
     <!-- //header -->
 
     <!-- banner section -->
@@ -179,216 +130,15 @@
     <!-- //grids section -->
 
     <!-- about section -->
-    <section class="w3l-aboutblock1 pt-lg-5 pt-2 pb-5" id="about">
-        <div class="container py-md-5 py-4">
-            <div class="row align-items-center">
-                <div class="col-lg-4">
-                    <div class="position-relative">
-                        <img src="assets/images/about.jpg" alt="" class="radius-image img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-8 ps-lg-5 mt-lg-0 mt-5">
-                    <h5 class="title-small mb-1">Minha intro</h5>
-                    <h3 class="title-style">Sobre mim</h3>
-                    <p class="mt-3">Sou um estudante do 4º ano de informática na Universidade Católica de Moçambique.
-                        sou um comunicador eficaz e jogador de equipe, hábil em garantir a conformidade e adesão ao trabalho em equipe. 
-                        tenho sede de oportunidades de trabalho para mostrar potencial e aprender ainda mais.</p>
-                    <div class="my-info mt-md-5 mt-4">
-                        <ul class="single-info">
-                            <li class="name-style">Nome</li>
-                            <li>:</li>
-                            <li>
-                                <p>Valdo Morais Flor</p>
-                            </li>
-                        </ul>
-                        <ul class="single-info">
-                            <li class="name-style">Idade</li>
-                            <li>:</li>
-                            <li>
-                                <p>21 Anos</p>
-                            </li>
-                        </ul>
-                        <ul class="single-info">
-                            <li class="name-style">De</li>
-                            <li>:</li>
-                            <li>
-                                <p>Mocambique, Beira</p>
-                            </li>
-                        </ul>
-                        <ul class="single-info">
-                            <li class="name-style">Email</li>
-                            <li>:</li>
-                            <li>
-                                <p><a href="mailto:maryateer@mail.com">Valdomorais.vm@gmail.com</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="#download" class="btn btn-style mt-5">Baixar CV</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        @include('section.info')
     <!-- //about section -->
 
     <!-- qualification section -->
-    <section class="w3l-timeline-1 py-5">
-        <div class="container py-lg-5 py-4">
-            <div class="title-heading-w3 text-center mb-sm-5 mb-4">
-                <h5 class="title-small">Resumo</h5>
-                <h3 class="title-style">Jornada Incrível</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <h5 class="sub-title-timeline"><i class="fas fa-graduation-cap"></i> Educacao</h5>
-                    <div class="timeline">
-                        <div class="column">
-                            <div class="title">
-                                <h2>Licenciatura em IT</h2>
-                            </div>
-                            <div class="description">
-                                <p>Universidade Catolica de Mocambique</p>
-                                <h6><i class="fas fa-calendar-alt"></i> 2019 - 2022</h6>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="title">
-                                <h2>Ensino Pre-Universitario</h2>
-                            </div>
-                            <div class="description">
-                                <p>Escola Secundaria de Mucoque</p>
-                                <h6><i class="fas fa-calendar-alt"></i> 2017 - 2018</h6>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="title">
-                                <h2>Ensino Secundario</h2>
-                            </div>
-                            <div class="description">
-                                <p>Escola Secundaria de Vinlankulos</p>
-                                <h6><i class="fas fa-calendar-alt"></i> 2014 - 2016</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 mt-lg-0 mt-4">
-                    <h5 class="sub-title-timeline"><i class="fas fa-briefcase"></i> Experiencia</h5>
-                    <div class="timeline">
-                        <div class="column">
-                            <div class="title">
-                                <h2>Desenvolvedor Front e Back-end </h2>
-                            </div>
-                            <div class="description">
-                                <p>Moz Top Up LDa.</p>
-                                <h6><i class="fas fa-calendar-alt"></i> 2022 - Actualmente</h6>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="title">
-                                <h2>Laravel FrameWork</h2>
-                            </div>
-                            <div class="description">
-                                <p> Explicador.inc </p>
-                                <h6><i class="fas fa-calendar-alt"></i> 2022</h6>
-                            </div>
-                        </div>
-                        {{-- <div class="column">
-                            <div class="title">
-                                <h2>Tecnologia de Informacao</h2>
-                            </div>
-                            <div class="description">
-                                <p>Agile info</p>
-                                <h6><i class="fas fa-calendar-alt"></i> 2019 - 2022</h6>
-                            </div>
-                        </div> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        @include('section.qualify')
     <!-- //qualification section -->
 
     <!-- skills section -->
-    <section class="w3l-progress py-5" id="progress">
-        <div class="container py-md-5 py-4">
-            <div class="title-heading-w3 text-center mb-sm-5 mb-4">
-                <h5 class="title-small mb-1">Minhas habilidades</h5>
-                <h3 class="title-style">Minha área de atuação</h3>
-            </div>
-            <div class="row py-lg-4">
-                <div class="col-lg-6 pe-lg-5">
-                    <div class="progress-info info1">
-                        <h6 class="progress-tittle">Web Design <span class="">80%</span></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped gradient-1" role="progressbar"
-                                style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-info info2">
-                        <h6 class="progress-tittle">HTML/CSS <span class="">95%</span>
-                        </h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped gradient-2" role="progressbar"
-                                style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-info info3">
-                        <h6 class="progress-tittle">JavaScript <span class="">60%</span></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped gradient-3" role="progressbar"
-                                style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-info info4 mb-0">
-                        <h6 class="progress-tittle"> C# <span class="">85%</span></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped gradient-4" role="progressbar"
-                                style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 ps-lg-5 mt-lg-0 mt-5">
-                    <div class="progress-info info1">
-                        <h6 class="progress-tittle"> Java <span class="">80%</span></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped gradient-1" role="progressbar"
-                                style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-info info2">
-                        <h6 class="progress-tittle">PHP <span class="">95%</span>
-                        </h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped gradient-2" role="progressbar"
-                                style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-info info3">
-                        <h6 class="progress-tittle">Bootstrap <span class="">60%</span></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped gradient-3" role="progressbar"
-                                style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-info info4 mb-0">
-                        <h6 class="progress-tittle">UI/UX Design <span class="">85%</span></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped gradient-4" role="progressbar"
-                                style="width: 85%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        @include('section.skill')
     <!-- //skills section -->
 
     <!-- projects section -->
@@ -475,101 +225,7 @@
     <!-- //projects section -->
 
     <!-- home service section -->
-    <section class="w3l-servicesblock1 py-5" id="services">
-        <div class="container py-md-5 py-4">
-            <div class="title-heading-w3 text-center mb-sm-5 mb-4">
-                <h5 class="title-small mb-1">O que eu faco?</h5>
-                <h3 class="title-style">Como posso ajudar seu próximo projeto</h3>
-            </div>
-            <div class="w3-services-grids py-lg-4">
-                <div class="fea-gd-vv row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="feature-gd icon-yellow">
-                            <div class="icon">
-                                <i class="fas fa-laptop"></i>
-                            </div>
-                            <div class="icon-info">
-                                <a href="#url">Programacao <br> web</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-md-0 mt-4">
-                        <div class="feature-gd icon-vilot">
-                            <div class="icon">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <div class="icon-info">
-                                <a href="#url">Suporte IT<br>e Manuntecao</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
-                        <div class="feature-gd icon-blue">
-                            <div class="icon">
-                                <i class="fab fa-android"></i>
-                            </div>
-                            <div class="icon-info">
-                                <a href="#url">Redes de<br> Computadores</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
-                        <div class="feature-gd icon-red">
-                            <div class="icon">
-                                <i class="fab fa-php"></i>
-                            </div>
-                            <div class="icon-info">
-                                <a href="#url">Programacao <br> Php Web</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
-                        <div class="feature-gd icon-light-green">
-                            <div class="icon">
-                                <i class="fab fa-apple"></i>
-                            </div>
-                            <div class="icon-info">
-                                <a href="#url">Sistemas <br> Empresariais</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
-                        <div class="feature-gd icon-light-blue">
-                            <div class="icon">
-                                <i class="fas fa-code"></i>
-                            </div>
-                            <div class="icon-info">
-                                <a href="#url"> Banco de dados <br> Mysql </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
-                        <div class="feature-gd icon-dark-green">
-                            <div class="icon">
-                                <i class="fas fa-link"></i>
-                            </div>
-                            <div class="icon-info">
-                                <a href="#url"> Pagamentos <br> Online </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
-                        <div class="feature-gd icon-pink">
-                            <div class="icon">
-                                <i class="fas fa-code-branch"></i>
-                            </div>
-                            <div class="icon-info">
-                                <a href="#url"> Dropshipping e <br>MKT Digital</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-5">
-                <a href="servicos" class="btn btn-style">Saber Mais</a>
-            </div>
-        </div>
-    </section>
+        @include('section.servico')
     <!-- //home service section -->
 
     <!-- testimonials section -->
@@ -659,49 +315,7 @@
     <!-- //testimonials section -->
 
     <!-- footer -->
-    <footer class="footer-w3ls text-center py-5">
-        <div class="container pt-4">
-            <div class="mx-auto" style="max-width:600px;">
-                <a href="home" class="footer-logo py-1">
-                    <i class="fas fa-bold"></i>.
-                </a>
-                <p class="mt-4 text-white">Contacte para saber mais, disponivel 24 horas por dia.</p>
-                <div class="social-icons-main mt-4 pb-3">
-                    <ul class="social-icons3">
-                        <li>
-                            <a href="#facebook">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#twitter">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#linkedinin">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#dribbble">
-                                <i class="fab fa-dribbble"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#instagram">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- copyright -->
-            <p class="copy-right-w3 text-white mt-5 pt-4">© 2022. All rights reserved | Design by
-                <a href="#url" target="_blank"> Valdo Morais Flor.</a>
-            </p>
-        </div>
-    </footer>
+    @include('section.footer')
     <!-- //footer -->
 
     <!-- Js scripts -->
