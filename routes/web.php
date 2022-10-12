@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GenericController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/', [GenericController::class, 'home']);
+Route::get('sobre', [GenericController::class, 'sobre']);
+Route::get('contacto', [GenericController::class, 'contacto']);
+Route::get('servicos', [GenericController::class, 'servicos']);
+
