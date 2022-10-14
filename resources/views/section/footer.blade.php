@@ -8,7 +8,7 @@
             <div class="social-icons-main mt-4 pb-3">
                 <ul class="social-icons3">
                     <li>
-                        <a href="#facebook">
+                        <a href="https://web.facebook.com/valdo.morais.334" target=".blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
@@ -18,7 +18,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#linkedinin">
+                        <a href="https://www.linkedin.com/in/valdo-morais-flor-b69206187/" target=".blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </li>
@@ -28,7 +28,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#instagram">
+                        <a href="https://www.instagram.com/valdo_flor/" target=".blank">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
@@ -37,7 +37,7 @@
         </div>
         <!-- copyright -->
         <p class="copy-right-w3 text-white mt-5 pt-4">© 2022. All rights reserved | Design by
-            <a href="#url" target="_blank"> Valdo Morais Flor.</a>
+            <a href="#" target="_blank"> Valdo Morais Flor.</a>
         </p>
     </div>
 </footer>

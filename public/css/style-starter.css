@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
---*/
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -60,6 +56,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 hr {
   margin: 1rem 0;
@@ -19155,7 +19152,7 @@ h3.title-style {
   display: grid;
   align-items: center;
   min-height: 100vh;
-  background: url(../images/banner2.jpg) no-repeat center;
+  background: url(../images/banner.png) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   position: relative;

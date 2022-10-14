@@ -150,23 +150,23 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 item">
-                    <a href="images/g1.jpg" data-lightbox="example-set" data-title="Project 1"
+                    <a href="https://github.com/ValdoMoraisFlor/HCB-job" target=".blank" data-title="Project 1"
                         class="zoom d-block">
                         <img class="card-img-bottom d-block" src="images/g1.jpg" alt="Card image cap">
                         <span class="overlay__hover"></span>
                         <span class="hover-content">
-                            <span class="title">Project 1</span>
+                            <span class="title">Projecto 1</span>
                             <span class="content">Prototipo HCB, Sistema Hospitalar para o Hospital central da beira.</span>
                         </span>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 item mt-md-0 mt-4">
-                    <a href="images/g2.jpg" data-lightbox="example-set" data-title="Project 2"
+                    <a href="" target=".black"data-lightbox="example-set" data-title="Project 2"
                         class="zoom d-block">
                         <img class="card-img-bottom d-block" src="images/g2.jpg" alt="Card image cap">
                         <span class="overlay__hover"></span>
                         <span class="hover-content">
-                            <span class="title">Project 2</span>
+                            <span class="title">Projecto 2</span>
                             <span class="content">Walembwa, Desktop de gestao de Detentos.</span>
                         </span>
                     </a>
@@ -178,7 +178,7 @@
                         <img class="card-img-bottom d-block" src="images/g3.jpg" alt="Card image cap">
                         <span class="overlay__hover"></span>
                         <span class="hover-content">
-                            <span class="title">Project 3</span>
+                            <span class="title">Projecto 3</span>
                             <span class="content">MozTopUp, Recargas em Jogos via Mpesa.</span>
                         </span>
                     </a>

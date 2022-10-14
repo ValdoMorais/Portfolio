@@ -52,8 +52,8 @@ Author URL: http://w3layouts.com
                         podemos tirar o máximo proveito do nosso primeiro catch-up.</p>
                     <div class="cont-details">
                         <p><i class="fas fa-map-marker-alt"></i>Bairro dos Infermeiros, Macurrungo, Beira.</p>
-                        <p><i class="fas fa-phone-alt"></i><a href="(+258) 846 777 776">(+258) 846 777 776</a></p>
-                        <p><i class="fas fa-envelope-open-text"></i><a href="mailto:example@mail.com"
+                        <p><i class="fas fa-phone-alt"></i><a href="#">(+258) 846 777 776</a></p>
+                        <p><i class="fas fa-envelope-open-text"></i><a href="#"
                                 class="mail">valdomorais.vm@mail.com</a></p>
                     </div>
                     <h4 class="mb-3 mt-5">Siga Me</h4>
@@ -64,22 +64,22 @@ Author URL: http://w3layouts.com
                             </a>
                         </li>
                         <li>
-                            <a href="#facebook">
+                            <a href="https://web.facebook.com/valdo.morais.334" target=".blank">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#linkedinin">
+                            <a href="https://www.linkedin.com/in/valdo-morais-flor-b69206187/" target=".blank">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#github">
+                            <a href="https://github.com/ValdoMoraisFlor" target=".blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#instagram">
+                            <a href="https://www.instagram.com/valdo_flor/" target=".blank">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
@@ -109,9 +109,9 @@ Author URL: http://w3layouts.com
     </section>
     <!-- map -->
     <div class="map-iframe">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2spl!4v1562654563739!5m2!1sen!2spl"
-            width="100%" height="400" frameborder="0" style="border: 0px;" allowfullscreen=""></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15012.165065520781!2d34.87398491496792!3d-19.838206786481283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1f2a401563da1c01%3A0xd52bc61c8aec323!2sMacurungo%2C%20Beira!5e0!3m2!1spt-PT!2smz!4v1665758585062!5m2!1spt-PT!2smz" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </div>
     <!-- //contact -->
 
@@ -194,7 +194,7 @@ Author URL: http://w3layouts.com
     <!-- //disable body scroll which navbar is in active -->
 
     <!-- bootstrap -->
-    <script src="{{asset('s/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <!-- //bootstrap -->
     <!-- //Js scripts -->
 </body>
